@@ -6,7 +6,8 @@ ENV PIP_NO_CACHE_DIR=off
 
 
 RUN python -m pip install --upgrade pip && \
-    pip install poetry
+    pip install poetry && \
+    pip install pytest
 
 WORKDIR /app
 
