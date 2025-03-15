@@ -1,7 +1,6 @@
 import os
 import time
 from flask import Flask
-from flask_restful import Api
 from flasgger import Swagger
 from sqlalchemy.exc import OperationalError
 
